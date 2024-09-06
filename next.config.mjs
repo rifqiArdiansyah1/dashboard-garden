@@ -5,7 +5,6 @@ const nextConfig = {
     unoptimized: true,
   },
 
-  basePath: '/dashboard-garden',
 }
 
 module.exports = nextConfig
