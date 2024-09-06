@@ -4,7 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-
+  basePath: '/mantap-garden',
+  trailingSlash: true,
 }
 
-module.exports = nextConfig;
+module.exports = nextConfig
