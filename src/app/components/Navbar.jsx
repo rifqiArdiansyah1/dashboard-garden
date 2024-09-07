@@ -5,8 +5,8 @@ const Navbar = () => {
     return (
         <div className="flex justify-between items-center shadow-2xl">
             <div className="flex p-7 text-2xl cursor-pointer">
-                <h1 className="font-extrabold transition duration-300 ease-in-out hover:font-normal hover:text-black">JOSS</h1>
-                <h1 className="transition duration-300 ease-in-out hover:font-extrabold hover:text-secondary">GARDEN</h1>
+                <h1 className="font-extrabold transition duration-300 ease-in-out hover:text-secondary">JOSS</h1>
+                <h1 className="transition duration-300 ease-in-out hover:text-secondary">GARDEN</h1>
             </div>
             <div className="flex gap-5 px-8 font-bold text-secondary ">
                 <Link href="/" className="cursor-pointer transition duration-300 ease-in-out hover:text-black">Beranda</Link>
